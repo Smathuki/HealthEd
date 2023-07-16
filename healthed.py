@@ -60,7 +60,7 @@ def play_quiz_game(quiz_data):
         return
     check_answer(question, user_answer)
 
-quiz_data = load_quiz_data("/Users/apple/python/quiz game/quiz_questions.txt")
+quiz_data = load_quiz_data("quiz_questions.txt")
 
 while True:
     play_quiz_game(quiz_data)
